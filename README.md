@@ -250,18 +250,8 @@ Large generated files, including transcript JSONs and Parquet checkpoints, are n
 
 To recreate the pipeline:
 
-1. Clone this repository or open the notebooks directly in Google Colab.
+1. Clone this repository.
 2. Upload `LoughranMcDonald_MasterDictionary_1993-2024.csv` into the project working directory.
 3. Run Notebook 1 to download transcripts and stock price data.
 4. Run Notebooks 2 through 9 sequentially.
 5. Each notebook writes intermediate outputs as Parquet checkpoints for efficient reruns.
-
-A GPU runtime is recommended for the FinBERT step because full-section transformer scoring requires processing many transcript chunks.
-
-## Authors
-
-Caroline Brady  
-Alyssa Prichard  
-
-MIS 584: Big Data Technologies  
-University of Arizona
