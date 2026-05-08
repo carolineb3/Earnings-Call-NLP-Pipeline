@@ -1,0 +1,15 @@
+# Too large generated data
+Transcripts_JSON/
+Parquet/
+*.parquet
+*.csv
+stock_prices.csv
+sector_map.csv
+
+# Notebook/system files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Secrets/config
+.env
